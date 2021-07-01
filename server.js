@@ -12,6 +12,6 @@ const server = net.createServer(function(socket){
 });
 
 
-server.listen({ host: "localhost", port: port }, function(){
+server.listen({ port: port }, function(){
     console.log('port:' + port);
 });
